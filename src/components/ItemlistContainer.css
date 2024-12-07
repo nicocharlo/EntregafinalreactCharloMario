@@ -1,0 +1,76 @@
+.producto-card {
+    background-color: white;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+  }
+  
+  .producto-imagen {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .producto-detalle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .producto-titulo {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .producto-precio {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .producto-enlace {
+    font-size: 14px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .producto-enlace:hover {
+    text-decoration: underline;
+  }
+  
+  .producto-boton {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .producto-boton:hover {
+    background-color: #0056b3;
+  }
+  
+  .productos-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 80px;
+  }
+  
+  .welcome-message {
+    margin-top: 80px;
+    text-align: center;
+  }

@@ -1,0 +1,39 @@
+.productos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 16px;
+  }
+  
+  .producto-item {
+    border: 1px solid #ddd;
+    padding: 16px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .producto-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  .producto-item h2 {
+    font-size: 1.2em;
+    margin: 8px 0;
+  }
+  
+  .producto-item p {
+    font-size: 1em;
+    color: #333;
+  }
+  
+  .producto-item a {
+    display: inline-block;
+    margin-top: 8px;
+    color: #0073e6;
+    text-decoration: none;
+  }
+  .producto-item a:hover {
+    text-decoration: underline;
+  }
+  
